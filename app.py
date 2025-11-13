@@ -34,7 +34,7 @@ if st.button("🔮 Predict Gold Price"):
 
         st.success(f"Predicted Gold Price (GLD): **${prediction[0]:,.2f}**")
     except Exception as e:
-        st.error(f"⚠️ Error making prediction: {e}")
+        st.error(f" Error making prediction: {e}")
 
 st.divider()
 
